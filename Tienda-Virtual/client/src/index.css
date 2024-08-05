@@ -1,0 +1,14 @@
+/* Importa estilos base, componentes y utilidades de Tailwind CSS. Define estilos para el fondo oscuro y texto blanco del cuerpo del documento, y ajusta la altura del contenedor de contenido utilizando cálculos basados en el tema de Tailwind. */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background: #202020;
+  color: white;
+}
+
+.content-container {
+  height: calc(100vh - theme("spacing.20"));
+}
